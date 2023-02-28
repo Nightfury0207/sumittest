@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>TollAway</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+</head>
+<body>
+
+<div class="card">
+  <div class="card-header">
+    <ul class="nav nav-tabs card-header-tabs">
+      <li class="nav-item">
+        <a class="nav-link disabled" aria-current="true" href="">BILLING</a>
+      </li>
+    </ul>
+  </div>
+	<div class="row row-col-4 small p-2">
+
+		<div class="col">
+		<div class="card mb-3" style="max-width: 540px;">
+  			<div class="row g-0">
+		    	<div class="col">
+		      		<img src="img/geo-alt-fill.svg" class="img-fluid rounded-start" alt="...">
+		    	</div>
+		    	<div class="col">
+						<div class="card-header">
+					    	Toll Booth
+					  	</div>
+						<div class="card-body">
+					  	  		<ul>
+				    			<li>ID: <?php $b_ID ?></li>
+				    			<li>Location: <?php $b_loc ?></li>
+				    			</ul>
+				  		</div>
+		    	</div>
+		  	</div>
+		</div>
+		</div>
+
+	    <!--<div class="card border-0 col">
+	      <div class="card-header">
+	    	Toll Booth
+	  	  </div>
+	  	  <img src="img/geo-alt-fill.svg" class="img-fluid rounded-start" alt="...">
+	  	  	<div class="card-body">
+	  	  		<ul>
+    			<li>ID: <?php $b_ID ?></li>
+    			<li>Location: <?php $b_loc ?></li>
+    			</ul>
+  			</div>
+	  	</div>-->
+
+	    <div class="card border-0 col">
+	      <div class="card-header">
+	    	Counter
+	  	  </div>
+	  	  	<div class="card-body">
+	  	  		<ul>
+    			<li>Number: <?php $c_num ?></li>
+    			<li>Route: <?php $c_route ?></li>
+    			</ul>
+  			</div>
+	  	</div>
+
+	    <div class="card border-0 col">
+	      <div class="card-header">
+	    	User
+	  	  </div>
+	  	  	<div class="card-body">
+	  	  		<ul>
+    			<li><?php $user ?></li>
+    			<li>Shift: <?php $shift ?></li>
+    			</ul>
+  			</div>
+	  	</div>
+
+	    <div class="card border-0 col text-end">
+	    <h5 class="card-header">
+	    	03:15 AM
+	  	  </h5>
+	  	  	<h6 class="card-body">
+	  	  		22 AUG 2022
+  			</h6>
+	  	</div>
+
+ </div>
+
+
+<script type="text/javascript" src="js/bootstrap.js"></script>
+</body>
+</html>
